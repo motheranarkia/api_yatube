@@ -2,7 +2,6 @@ from rest_framework import viewsets, permissions
 from django.core.exceptions import PermissionDenied
 from rest_framework.permissions import IsAuthenticated
 from django.shortcuts import get_object_or_404
-
 from rest_framework import viewsets
 
 from .serializers import PostSerializer, GroupSerializer, CommentSerializer
